@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         "context": "..",
-        "args": { "VARIANT": "3.8", "INSTALL_NODE": "true", "NODE_VERSION": "lts/*" }
+        "args": { "VARIANT": "3.8", "INSTALL_NODE": "true", "NODE_VERSION": "14" }
     },
     "settings": { 
         "python.pythonPath": "/usr/local/bin/python",
